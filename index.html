@@ -1,0 +1,162 @@
+<!DOCTYP
+E html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas Combustíveis - Laranjeiras</title>
+    <style>
+        /* Estilos Base */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #e8f5e9; /* Verde bem claro do fundo */
+            color: #2e4d2e;
+        }
+
+        /* Seção Superior (Hero) */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 10%;
+            background-color: #f1f8e9;
+            min-height: 45vh;
+            border-bottom-right-radius: 100px; /* Leve curva para combinar com a imagem */
+        }
+
+        .hero-text {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .hero-text h1 {
+            font-size: 2.5rem;
+            color: #2d5a27;
+            margin-bottom: 10px;
+        }
+
+        .hero-text p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            color: #557a55;
+            margin-bottom: 30px;
+        }
+
+        .btn-consultar {
+            background-color: #2d5a27;
+            color: white;
+            padding: 12px 35px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .btn-consultar:hover {
+            background-color: #1e3d1a;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50% 20% 50% 20%; /* Tenta replicar o formato orgânico da imagem */
+        }
+
+        /* Seção Inferior (Consultas) */
+        .consultas-section {
+            padding: 60px 10%;
+            text-align: left;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .section-title img {
+            width: 45px; /* Ícone do pin vermelho */
+        }
+
+        .section-title h2 {
+            font-size: 2rem;
+            margin: 0;
+            color: #2d5a27;
+        }
+
+        /* Grid de Botões */
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 600px;
+        }
+
+        .card-link {
+            background-color: #2d5a27;
+            color: white;
+            text-decoration: none;
+            padding: 18px 25px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: transform 0.2s, background-color 0.2s;
+            display: block;
+        }
+
+        .card-link:hover {
+            background-color: #1e3d1a;
+            transform: translateX(10px);
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero { flex-direction: column; text-align: center; }
+            .hero-image { justify-content: center; margin-top: 30px; }
+            .hero-text { max-width: 100%; }
+            .section-title { justify-content: center; }
+            .buttons-container { margin: 0 auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Consultas Combustíveis</h1>
+            <p>Confira aqui as principais informações sobre os <strong>preços de combustíveis</strong> da região de Laranjeiras - Serra, ES</p>
+            <a href="#consultas" class="btn-consultar">Consultar</a>
+        </div>
+        <div class="hero-image">
+            <img src="banner-combustivel.png" alt="Ilustração frentista">
+        </div>
+    </section>
+
+    <section class="consultas-section" id="consultas">
+        <div class="section-title">
+            <img src="ponto-ref.PNG" alt="ícone local">
+            <h2>Consultas:</h2>
+        </div>
+
+        <div class="buttons-container">
+            <a href="consulta1.html" class="card-link">Menor e maior valor por tipo de combustível</a>
+            <a href="consulta2.html" class="card-link">Médias e Amostras por Posto</a>
+            <a href="consulta3.html" class="card-link">Preços mais recentes</a>
+            <a href="consulta4.html" class="card-link">Evolução de preços ao longo do tempo</a>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta I - Extremos com Checkbox</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f7f6; padding: 20px; }
+        .container { max-width: 1100px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .grupo-filtro { background: #f9f9f9; padding: 15px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px; }
+        .lista-checkbox { display: flex; flex-wrap: wrap; gap: 15px; background: white; border: 1px solid #eee; padding: 15px; margin-top: 10px; border-radius: 4px; }
+        .item-check { display: flex; align-items: center; cursor: pointer; font-size: 14px; background: #fff; border: 1px solid #ddd; padding: 5px 10px; border-radius: 20px; }
+        .item-check input { margin-right: 8px; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #1e3d1a; color: white; padding: 12px; text-align: left; }
+        td { padding: 12px; border-bottom: 1px solid #ddd; }
+        .tag { padding: 4px 8px; border-radius: 4px; font-size: 11px; color: white; font-weight: bold; }
+        .min { background: #27ae60; } .max { background: #e74c3c; }
+        .btn-back { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #54a04a; font-weight: bold; }
+
+        strong {color: #1e3d1a; }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="btn-back">← Voltar ao Menu</a>
+        <h2>Menor e Maior Preço por Tipo</h2>
+        <div class="grupo-filtro">
+            <strong>Selecione os Combustíveis:</strong>
+            <div id="listaCombs" class="lista-checkbox"></div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Destaque</th>
+                    <th>Combustível</th>
+                    <th>Posto</th>
+                    <th>Bairro</th>
+                    <th>Valor</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+        </table>
+    </div>
+
+     <script>
+        let globalData = [];
+
+        function formatarDataBR(dataString) {
+            if(!dataString) return ""; 
+            const data = new Date(dataString);
+            data.setMinutes(data.getMinutes() + data.getTimezoneOffset());
+            return data.toLocaleDateString('pt-BR');
+        }
+
+        async function iniciar() {
+            const resp = await fetch('./dados site.csv');
+            const texto = await resp.text();
+            const linhas = texto.split('\n').filter(l => l.trim() !== '');
+            globalData = linhas.slice(1).map(l => {
+                const cols = l.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
+                return {
+                    nome: cols[0].replace(/"/g, ''),
+                    comb: cols[1].replace(/"/g, ''),
+                    bairro: cols[3].replace(/"/g, ''),
+                    data: cols[4].replace(/"/g, ''),
+                    valor: parseFloat(cols[5].replace(/"/g, '').replace(',', '.'))
+                };
+            });
+            const tipos = [...new Set(globalData.map(d => d.comb))].sort();
+            const div = document.getElementById('listaCombs');
+            tipos.forEach(t => {
+                div.innerHTML += `<label class="item-check"><input type="checkbox" class="check-comb" value="${t}" checked onclick="atualizar()"> ${t}</label>`;
+            });
+            atualizar();
+        }
+
+        function atualizar() {
+            const selecionados = Array.from(document.querySelectorAll('.check-comb:checked')).map(cb => cb.value);
+            const tbody = document.getElementById('corpoTabela');
+            tbody.innerHTML = '';
+            
+            selecionados.forEach(tipo => {
+                const filtrados = globalData.filter(d => d.comb === tipo);
+                if(filtrados.length > 0) {
+                    const min = filtrados.reduce((p, c) => p.valor < c.valor ? p : c);
+                    const max = filtrados.reduce((p, c) => p.valor > c.valor ? p : c);
+                    
+                    const rows = [{...min, label: 'MENOR', classe: 'min'}];
+                    if(max.valor !== min.valor) rows.push({...max, label: 'MAIOR', classe: 'max'});
+                    
+                    rows.forEach(r => {
+                        tbody.innerHTML += `<tr>
+                            <td><span class="tag ${r.classe}">${r.label}</span></td>
+                            <td>${r.comb}</td>
+                            <td>${r.nome}</td>
+                            <td>${r.bairro}</td>
+                            <td><strong>R$ ${r.valor.toFixed(2).replace('.',',')}</strong></td>
+                            <td>${formatarDataBR(r.data)}</td>
+                        </tr>`;
+                    });
+                }
+            });
+        }
+        iniciar();
+    </script>
+</body>
+</html>

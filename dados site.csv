@@ -1,0 +1,145 @@
+nome_posto,combustivel,endereco,bairro,data_coleta,valor
+"Posto Atlântica",Diesel,"R. das Acerolas","Morada de Laranjeiras",2026-03-02,6.09
+"Posto Atlântica",Diesel,"R. das Acerolas","Morada de Laranjeiras",2026-03-04,6.09
+"Posto Atlântica",Diesel,"R. das Acerolas","Morada de Laranjeiras",2026-03-07,6.09
+"Posto Atlântica",Diesel,"R. das Acerolas","Morada de Laranjeiras",2026-03-13,6.59
+"Posto Atlântica",Diesel,"R. das Acerolas","Morada de Laranjeiras",2026-03-18,6.59
+"Posto Atlântica",Diesel,"R. das Acerolas","Morada de Laranjeiras",2026-03-25,6.79
+"Posto Atlântica",Etanol,"R. das Acerolas","Morada de Laranjeiras",2026-03-02,4.89
+"Posto Atlântica",Etanol,"R. das Acerolas","Morada de Laranjeiras",2026-03-04,4.89
+"Posto Atlântica",Etanol,"R. das Acerolas","Morada de Laranjeiras",2026-03-07,4.89
+"Posto Atlântica",Etanol,"R. das Acerolas","Morada de Laranjeiras",2026-03-13,4.89
+"Posto Atlântica",Etanol,"R. das Acerolas","Morada de Laranjeiras",2026-03-18,4.89
+"Posto Atlântica",Etanol,"R. das Acerolas","Morada de Laranjeiras",2026-03-25,4.99
+"Posto Atlântica",Gasolina,"R. das Acerolas","Morada de Laranjeiras",2026-03-02,5.97
+"Posto Atlântica",Gasolina,"R. das Acerolas","Morada de Laranjeiras",2026-03-04,5.97
+"Posto Atlântica",Gasolina,"R. das Acerolas","Morada de Laranjeiras",2026-03-07,5.97
+"Posto Atlântica",Gasolina,"R. das Acerolas","Morada de Laranjeiras",2026-03-13,6.59
+"Posto Atlântica",Gasolina,"R. das Acerolas","Morada de Laranjeiras",2026-03-18,6.59
+"Posto Atlântica",Gasolina,"R. das Acerolas","Morada de Laranjeiras",2026-03-25,6.45
+"Posto Atlântica","Gasolina Aditivada","R. das Acerolas","Morada de Laranjeiras",2026-03-02,5.97
+"Posto Atlântica","Gasolina Aditivada","R. das Acerolas","Morada de Laranjeiras",2026-03-04,5.97
+"Posto Atlântica","Gasolina Aditivada","R. das Acerolas","Morada de Laranjeiras",2026-03-07,5.97
+"Posto Atlântica","Gasolina Aditivada","R. das Acerolas","Morada de Laranjeiras",2026-03-13,6.59
+"Posto Atlântica","Gasolina Aditivada","R. das Acerolas","Morada de Laranjeiras",2026-03-18,6.59
+"Posto Atlântica","Gasolina Aditivada","R. das Acerolas","Morada de Laranjeiras",2026-03-25,6.45
+"Posto Ipiranga Morada",Diesel,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-02,6.05
+"Posto Ipiranga Morada",Diesel,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-04,6.05
+"Posto Ipiranga Morada",Diesel,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-07,6.05
+"Posto Ipiranga Morada",Diesel,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-13,6.59
+"Posto Ipiranga Morada",Diesel,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-18,6.79
+"Posto Ipiranga Morada",Diesel,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-25,6.87
+"Posto Ipiranga Morada",Etanol,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-02,4.89
+"Posto Ipiranga Morada",Etanol,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-04,4.89
+"Posto Ipiranga Morada",Etanol,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-07,4.89
+"Posto Ipiranga Morada",Etanol,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-13,4.99
+"Posto Ipiranga Morada",Etanol,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-18,4.99
+"Posto Ipiranga Morada",Etanol,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-25,4.99
+"Posto Ipiranga Morada",Gasolina,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-02,5.94
+"Posto Ipiranga Morada",Gasolina,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-04,5.94
+"Posto Ipiranga Morada",Gasolina,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-07,5.94
+"Posto Ipiranga Morada",Gasolina,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-13,6.59
+"Posto Ipiranga Morada",Gasolina,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-18,6.59
+"Posto Ipiranga Morada",Gasolina,"Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-25,6.49
+"Posto Ipiranga Morada","Gasolina Aditivada","Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-02,6.14
+"Posto Ipiranga Morada","Gasolina Aditivada","Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-04,6.14
+"Posto Ipiranga Morada","Gasolina Aditivada","Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-07,6.14
+"Posto Ipiranga Morada","Gasolina Aditivada","Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-13,6.79
+"Posto Ipiranga Morada","Gasolina Aditivada","Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-18,6.59
+"Posto Ipiranga Morada","Gasolina Aditivada","Av. Paulo Pereira Gomes, 2272","Laranjeiras II",2026-03-25,6.69
+"Posto Petrobras",Diesel,"Av. Norte Sul, 3595","Civit II",2026-03-02,6.39
+"Posto Petrobras",Diesel,"Av. Norte Sul, 3595","Civit II",2026-03-04,6.39
+"Posto Petrobras",Diesel,"Av. Norte Sul, 3595","Civit II",2026-03-07,6.39
+"Posto Petrobras",Diesel,"Av. Norte Sul, 3595","Civit II",2026-03-13,6.29
+"Posto Petrobras",Diesel,"Av. Norte Sul, 3595","Civit II",2026-03-18,6.79
+"Posto Petrobras",Diesel,"Av. Norte Sul, 3595","Civit II",2026-03-25,6.99
+"Posto Petrobras",Etanol,"Av. Norte Sul, 3595","Civit II",2026-03-02,4.89
+"Posto Petrobras",Etanol,"Av. Norte Sul, 3595","Civit II",2026-03-04,4.89
+"Posto Petrobras",Etanol,"Av. Norte Sul, 3595","Civit II",2026-03-07,4.89
+"Posto Petrobras",Etanol,"Av. Norte Sul, 3595","Civit II",2026-03-13,4.99
+"Posto Petrobras",Etanol,"Av. Norte Sul, 3595","Civit II",2026-03-18,4.99
+"Posto Petrobras",Etanol,"Av. Norte Sul, 3595","Civit II",2026-03-25,4.99
+"Posto Petrobras",Gasolina,"Av. Norte Sul, 3595","Civit II",2026-03-02,6.09
+"Posto Petrobras",Gasolina,"Av. Norte Sul, 3595","Civit II",2026-03-04,6.09
+"Posto Petrobras",Gasolina,"Av. Norte Sul, 3595","Civit II",2026-03-07,6.09
+"Posto Petrobras",Gasolina,"Av. Norte Sul, 3595","Civit II",2026-03-13,6.59
+"Posto Petrobras",Gasolina,"Av. Norte Sul, 3595","Civit II",2026-03-18,6.59
+"Posto Petrobras",Gasolina,"Av. Norte Sul, 3595","Civit II",2026-03-25,6.59
+"Posto Petrobras","Gasolina Aditivada","Av. Norte Sul, 3595","Civit II",2026-03-02,6.49
+"Posto Petrobras","Gasolina Aditivada","Av. Norte Sul, 3595","Civit II",2026-03-04,6.49
+"Posto Petrobras","Gasolina Aditivada","Av. Norte Sul, 3595","Civit II",2026-03-07,6.49
+"Posto Petrobras","Gasolina Aditivada","Av. Norte Sul, 3595","Civit II",2026-03-13,6.79
+"Posto Petrobras","Gasolina Aditivada","Av. Norte Sul, 3595","Civit II",2026-03-18,6.79
+"Posto Petrobras","Gasolina Aditivada","Av. Norte Sul, 3595","Civit II",2026-03-25,6.79
+"Posto Shell",Diesel,"Rod. laranjeiras","Civit II",2026-03-02,6.09
+"Posto Shell",Diesel,"Rod. laranjeiras","Civit II",2026-03-04,6.24
+"Posto Shell",Diesel,"Rod. laranjeiras","Civit II",2026-03-07,6.24
+"Posto Shell",Diesel,"Rod. laranjeiras","Civit II",2026-03-13,6.59
+"Posto Shell",Diesel,"Rod. laranjeiras","Civit II",2026-03-18,6.89
+"Posto Shell",Diesel,"Rod. laranjeiras","Civit II",2026-03-25,6.89
+"Posto Shell",Etanol,"Rod. laranjeiras","Civit II",2026-03-02,4.79
+"Posto Shell",Etanol,"Rod. laranjeiras","Civit II",2026-03-04,4.79
+"Posto Shell",Etanol,"Rod. laranjeiras","Civit II",2026-03-07,4.79
+"Posto Shell",Etanol,"Rod. laranjeiras","Civit II",2026-03-13,4.89
+"Posto Shell",Etanol,"Rod. laranjeiras","Civit II",2026-03-18,5.09
+"Posto Shell",Etanol,"Rod. laranjeiras","Civit II",2026-03-25,5.09
+"Posto Shell",Gasolina,"Rod. laranjeiras","Civit II",2026-03-02,6.09
+"Posto Shell",Gasolina,"Rod. laranjeiras","Civit II",2026-03-04,6.19
+"Posto Shell",Gasolina,"Rod. laranjeiras","Civit II",2026-03-07,6.19
+"Posto Shell",Gasolina,"Rod. laranjeiras","Civit II",2026-03-13,6.58
+"Posto Shell",Gasolina,"Rod. laranjeiras","Civit II",2026-03-18,6.89
+"Posto Shell",Gasolina,"Rod. laranjeiras","Civit II",2026-03-25,6.69
+"Posto Shell","Gasolina Aditivada","Rod. laranjeiras","Civit II",2026-03-02,6.59
+"Posto Shell","Gasolina Aditivada","Rod. laranjeiras","Civit II",2026-03-04,6.69
+"Posto Shell","Gasolina Aditivada","Rod. laranjeiras","Civit II",2026-03-07,6.69
+"Posto Shell","Gasolina Aditivada","Rod. laranjeiras","Civit II",2026-03-13,7.08
+"Posto Shell","Gasolina Aditivada","Rod. laranjeiras","Civit II",2026-03-18,7.39
+"Posto Shell","Gasolina Aditivada","Rod. laranjeiras","Civit II",2026-03-25,7.09
+"Rede Marcela - Posto Central",Diesel,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-02,5.99
+"Rede Marcela - Posto Central",Diesel,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-04,5.99
+"Rede Marcela - Posto Central",Diesel,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-07,5.99
+"Rede Marcela - Posto Central",Diesel,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-13,6.39
+"Rede Marcela - Posto Central",Diesel,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-18,6.79
+"Rede Marcela - Posto Central",Diesel,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-25,6.79
+"Rede Marcela - Posto Central",Etanol,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-02,4.69
+"Rede Marcela - Posto Central",Etanol,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-04,4.69
+"Rede Marcela - Posto Central",Etanol,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-07,4.69
+"Rede Marcela - Posto Central",Etanol,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-13,4.99
+"Rede Marcela - Posto Central",Etanol,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-18,4.99
+"Rede Marcela - Posto Central",Etanol,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-25,4.99
+"Rede Marcela - Posto Central",Gasolina,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-02,6.09
+"Rede Marcela - Posto Central",Gasolina,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-04,6.09
+"Rede Marcela - Posto Central",Gasolina,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-07,6.09
+"Rede Marcela - Posto Central",Gasolina,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-13,6.59
+"Rede Marcela - Posto Central",Gasolina,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-18,6.59
+"Rede Marcela - Posto Central",Gasolina,"Av. Civit, 2100","Colina de Laranjeiras",2026-03-25,6.59
+"Rede Marcela - Posto Central","Gasolina Aditivada","Av. Civit, 2100","Colina de Laranjeiras",2026-03-02,6.29
+"Rede Marcela - Posto Central","Gasolina Aditivada","Av. Civit, 2100","Colina de Laranjeiras",2026-03-04,6.09
+"Rede Marcela - Posto Central","Gasolina Aditivada","Av. Civit, 2100","Colina de Laranjeiras",2026-03-07,6.29
+"Rede Marcela - Posto Central","Gasolina Aditivada","Av. Civit, 2100","Colina de Laranjeiras",2026-03-13,6.79
+"Rede Marcela - Posto Central","Gasolina Aditivada","Av. Civit, 2100","Colina de Laranjeiras",2026-03-18,6.79
+"Rede Marcela - Posto Central","Gasolina Aditivada","Av. Civit, 2100","Colina de Laranjeiras",2026-03-25,6.79
+"Yahoo Auto Posto",Diesel,ES-010,Manguinhos,2026-03-02,6.09
+"Yahoo Auto Posto",Diesel,ES-010,Manguinhos,2026-03-04,6.09
+"Yahoo Auto Posto",Diesel,ES-010,Manguinhos,2026-03-07,6.09
+"Yahoo Auto Posto",Diesel,ES-010,Manguinhos,2026-03-13,6.59
+"Yahoo Auto Posto",Diesel,ES-010,Manguinhos,2026-03-18,6.59
+"Yahoo Auto Posto",Diesel,ES-010,Manguinhos,2026-03-25,6.79
+"Yahoo Auto Posto",Etanol,ES-010,Manguinhos,2026-03-02,4.89
+"Yahoo Auto Posto",Etanol,ES-010,Manguinhos,2026-03-04,4.89
+"Yahoo Auto Posto",Etanol,ES-010,Manguinhos,2026-03-07,4.89
+"Yahoo Auto Posto",Etanol,ES-010,Manguinhos,2026-03-13,4.89
+"Yahoo Auto Posto",Etanol,ES-010,Manguinhos,2026-03-18,4.89
+"Yahoo Auto Posto",Etanol,ES-010,Manguinhos,2026-03-25,4.99
+"Yahoo Auto Posto",Gasolina,ES-010,Manguinhos,2026-03-02,5.97
+"Yahoo Auto Posto",Gasolina,ES-010,Manguinhos,2026-03-04,5.97
+"Yahoo Auto Posto",Gasolina,ES-010,Manguinhos,2026-03-07,5.97
+"Yahoo Auto Posto",Gasolina,ES-010,Manguinhos,2026-03-13,6.59
+"Yahoo Auto Posto",Gasolina,ES-010,Manguinhos,2026-03-18,6.59
+"Yahoo Auto Posto",Gasolina,ES-010,Manguinhos,2026-03-25,6.45
+"Yahoo Auto Posto","Gasolina Aditivada",ES-010,Manguinhos,2026-03-02,5.97
+"Yahoo Auto Posto","Gasolina Aditivada",ES-010,Manguinhos,2026-03-04,5.97
+"Yahoo Auto Posto","Gasolina Aditivada",ES-010,Manguinhos,2026-03-07,5.97
+"Yahoo Auto Posto","Gasolina Aditivada",ES-010,Manguinhos,2026-03-13,6.59
+"Yahoo Auto Posto","Gasolina Aditivada",ES-010,Manguinhos,2026-03-18,6.59
+"Yahoo Auto Posto","Gasolina Aditivada",ES-010,Manguinhos,2026-03-25,6.45
